@@ -1,8 +1,8 @@
-//import Img from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img1.png"
-import Img2 from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img2.png"
-import Img3 from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img3.png"
-import Img4 from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img4.png"
-import Img5 from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img5.png"
+//import Img from "/src/assets/img1.png"
+import Img2 from "/src/assets/img2.png"
+import Img3 from "/src/assets/img3.png"
+import Img4 from "/src/assets/img4.png"
+import Img5 from "/src/assets/img5.png"
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
