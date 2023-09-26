@@ -1,4 +1,4 @@
-import Img from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img1.png"
+//import Img from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img1.png"
 import Img2 from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img2.png"
 import Img3 from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img3.png"
 import Img4 from "/home/roger/Documentos/projetos/1/portfolio/src/assets/img4.png"
@@ -61,7 +61,7 @@ export default function MeusProjetos(){
       }}
       modules={[FreeMode,Autoplay ]}
     >
-      <SwiperSlide> < Projeto LInk={()=>Links("https://dorf.vercel.app/  ")} Img={Img} Titulo={'Dorf'} Texto={'Um criador de formulários gratuito e de código aberto'} /></SwiperSlide>
+      <SwiperSlide> < Projeto LInk={()=>Links("https://dorf.vercel.app/  ")} Img={Img2} Titulo={'Dorf'} Texto={'Um criador de formulários gratuito e de código aberto'} /></SwiperSlide>
       <SwiperSlide> < Projeto LInk={()=>Links(" https://p2p-org.github.io/p2p-wallet-web/mvvm/#/ ")} Img={Img2} Titulo={'P2P Wallet'} Texto={'Uma carteira Solana baseada em navegador de código aberto.'} /></SwiperSlide>
       <SwiperSlide> < Projeto LInk={()=>Links(" https://slug.vercel.app/ ")} Img={Img3} Titulo={'Sulg'} Texto={' Um encurtador de URL de código aberto desenvolvido com T3 Stack.'} /></SwiperSlide>
       <SwiperSlide> < Projeto LInk={()=>Links(" https://www.firefiles.app/ ")} Img={Img4} Titulo={'Firefiles'} Texto={'A alternativa de código aberto ao Dropbox.'} /></SwiperSlide>
