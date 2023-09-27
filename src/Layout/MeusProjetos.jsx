@@ -3,6 +3,8 @@ import Img2 from "/src/assets/img2.png"
 import Img3 from "/src/assets/img3.png"
 import Img4 from "/src/assets/img4.png"
 import Img5 from "/src/assets/img5.png"
+import Img6 from "/src/assets/img6.png"
+
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -21,18 +23,20 @@ export default function MeusProjetos(){
         <section id="Projetos" className=" w-full px-20 py-10  flex flex-col gap-10 md:px-5
         " >
 
-            <h2 className=' text-center text-white  text-6xl font-bold'>
+            <h2 className=' text-center text-white  text-6xl font-bold 2xl:text-7xl'>
                 Projetos
             </h2>
 
-            <p className=' text-center text-white font-medium  text-xl xs:text-base '>Aqui estão alguns dos projetos open source nos quais estive<br className='  flex sm:hidden '/> envolvido como desenvolvedor full stack</p>
+            <p className=' text-center text-white font-medium  text-xl xs:text-base 2xl:text-3xl '>Aqui estão alguns dos projetos open source nos quais estive<br className='  flex sm:hidden '/> envolvido como desenvolvedor full stack</p>
 
             <section>
 
             <Swiper
       spaceBetween={50}
-      slidesPerView={3}
+      slidesPerView={4}
       freeMode={true}
+      dir={'rtl'}
+
       
       loop={true}
       autoplay={{
@@ -58,6 +62,10 @@ export default function MeusProjetos(){
           slidesPerView: 3,
           spaceBetween: 30,
         },
+        1550: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
       }}
       modules={[FreeMode,Autoplay ]}
     >
@@ -66,6 +74,7 @@ export default function MeusProjetos(){
       <SwiperSlide> < Projeto LInk={()=>Links(" https://slug.vercel.app/ ")} Img={Img3} Titulo={'Sulg'} Texto={' Um encurtador de URL de código aberto desenvolvido com T3 Stack.'} /></SwiperSlide>
       <SwiperSlide> < Projeto LInk={()=>Links(" https://www.firefiles.app/ ")} Img={Img4} Titulo={'Firefiles'} Texto={'A alternativa de código aberto ao Dropbox.'} /></SwiperSlide>
       <SwiperSlide> < Projeto LInk={()=>Links("https://frappebooks.com/")} Img={Img5} Titulo={'Books'} Texto={"Software de contabilidade grátis" } /></SwiperSlide>
+      <SwiperSlide> < Projeto LInk={()=>Links("https://ravenapp.info/")} Img={Img6} Titulo={'Raven'} Texto={"Plataforma de mensagens de equipe simples e de código aberto" } /></SwiperSlide>
 
 
     </Swiper>

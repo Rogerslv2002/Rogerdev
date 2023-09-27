@@ -1,7 +1,6 @@
-import { FaJs, FaNode, FaReact, FaSass } from "react-icons/fa";
-import { SiAdonisjs, SiAstro, SiBun, SiDocker, SiExpress, SiFirebase, SiKubernetes, SiMongodb, SiNestjs, SiNextdotjs, SiPreact, SiPrisma, SiRemix, SiSequelize, SiSupabase, SiTailwindcss, SiTypescript } from "react-icons/si";
-import { BiLogoGit, BiLogoPostgresql, BiLogoRedux } from "react-icons/bi";
-import { AiFillGithub } from "react-icons/ai";
+import { FaJs, FaNode, FaReact, } from "react-icons/fa";
+import {  SiAnsible, SiAstro, SiAxios, SiBun, SiCypress, SiDocker, SiExpress,  SiMongodb, SiNestjs, SiNextdotjs, SiNginx, SiPreact, SiPrisma, SiRedis, SiStorybook, SiSupabase, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { BiLogoGit, BiLogoPostgresql,  } from "react-icons/bi";
 import { RxStitchesLogo} from "react-icons/rx";
 
 
@@ -14,7 +13,7 @@ import Skills from "../Components/skills";
 export default function Habilidade() {
     return(
         <section className="w-full px-5 py-10" >
-            <h2 className="text-5xl font-semibold text-center text-white pb-14" >
+            <h2 className="text-5xl 2xl:text-7xl font-semibold text-center text-white pb-14" >
                 Minhas Habilidades
 
             </h2>
@@ -29,14 +28,14 @@ export default function Habilidade() {
                  Slide2={<Skills Icon={<SiTypescript/>} Texto={'TypeScript'} />}
                  Slide3={<Skills Icon={<FaReact/> } Texto={'React'}/>}
                  Slide4={<Skills Icon={<SiPreact/>}  Texto={'Preact'} />}
-                 Slide5={<Skills Icon={<FaSass/>} Texto={"Sass"}/>}
+                 Slide5={<Skills Icon={<SiAxios/>} Texto={"Axios"}/>}
                  Slide6={<Skills Icon={<SiTailwindcss/>} Texto={'Tailwindcss'} />}
                  Slide7={<Skills Icon={<RxStitchesLogo/>} Texto={'Stitches'} />}
-                 Slide8={<Skills Icon={<BiLogoRedux/>} Texto={'Rudux'} />}
+                 Slide8={<Skills Icon={<SiCypress/>} Texto={'Cypress'} />}
                  Slide9={<Skills Icon={<BiLogoGit/> } Texto={'Git'}/>}
-                 Slide10={<Skills Icon={<AiFillGithub/>}  Texto={'Github'} />}
+                 Slide10={<Skills Icon={<SiStorybook/>}  Texto={'Storybook'} />}
                  Slide11={<Skills Icon={<SiAstro/>} Texto={'Astro'} />}
-                 Slide12={<Skills Icon={<SiNextdotjs/>} Texto={'Nextd'} />} 
+                 Slide12={<Skills Icon={<SiNextdotjs/>} Texto={'Next'} />} 
               
 
 
@@ -53,13 +52,13 @@ export default function Habilidade() {
                  Slide10={<Skills Icon={<SiExpress/> } Texto={'Express '}/>}
                  Slide9={<Skills Icon={< SiNestjs/>}  Texto={'Nest'} />}
                  Slide8={<Skills Icon={<SiPrisma/>} Texto={"Prisma"}/>}
-                 Slide7={<Skills Icon={<SiSequelize/>} Texto={'Sisquelize'} />}
+                 Slide7={<Skills Icon={<SiRedis/>} Texto={'Redis'} />}
                  Slide6={<Skills Icon={<SiMongodb/>} Texto={'MongoDB'} />}
                  Slide5={<Skills Icon={<BiLogoPostgresql/>} Texto={'Postgresql'} />}
                  Slide4={<Skills Icon={<SiSupabase/> } Texto={'Supabase'}/>}
-                 Slide3={<Skills Icon={<SiFirebase/>}  Texto={'Firebase'} />}
+                 Slide3={<Skills Icon={<SiNginx/>}  Texto={'Nginx'} />}
                  Slide2={<Skills Icon={<SiDocker/>} Texto={'Doker'} />}
-                 Slide1={<Skills Icon={<SiKubernetes/>} Texto={'Kubernetes'} />} 
+                 Slide1={<Skills Icon={<SiAnsible/>} Texto={'Ansible'} />} 
               
                 
                  />

@@ -5,7 +5,7 @@ import { BiCodeAlt } from "react-icons/bi";
 export default function Serviços (){
     return(
         <section id="Serviços" className=" w-full px-20 py-10 flex flex-col gap-10 md:px-5 ">
-            <h2 className=" text-center  text-white text-5xl font-bold ">Meus Serviços</h2>
+            <h2 className=" text-center  text-white text-5xl font-bold 2xl:text-7xl ">Meus Serviços</h2>
             <p></p>
 
             <section className=" flex flex-row gap-5 divide-x-4 divide-lime-300 sm:flex-col sm:divide-y-2 sm:divide-x-0" >

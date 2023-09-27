@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     screens: {
-      '2xl': {'min': '1600px'},
+      '2xl': {'min': '1550px'},
   
-      'xl': {'max': '1600px'},
+      'xl': {'max': '1550px'},
 
       'lg': {'max': '1300px'},
 
